@@ -71,7 +71,8 @@ app.post('/toy',async (req,res)=>{
         const oldValues = {name:nameInput,price:priceInput,picURL:picURLInput}
         res.render('toy',{error:errorMessage,oldValues:oldValues})
         return;
-        
+        //kkk
+        //asdad
     }
     const newP = {name:nameInput,price:Number.parseFloat(priceInput),picURL:picURLInput}
 
