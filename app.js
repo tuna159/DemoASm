@@ -71,7 +71,7 @@ app.post('/toy',async (req,res)=>{
         const oldValues = {name:nameInput,price:priceInput,picURL:picURLInput}
         res.render('toy',{error:errorMessage,oldValues:oldValues})
         return;
-        //day la ham tra ve
+        
     }
     const newP = {name:nameInput,price:Number.parseFloat(priceInput),picURL:picURLInput}
 
